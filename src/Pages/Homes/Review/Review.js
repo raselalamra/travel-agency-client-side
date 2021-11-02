@@ -28,7 +28,6 @@ const Review = () => {
   return (
     <div className="my-5">
       <div className="title">
-        {/* <h4 className="sub-heading">Our Customers Review</h4> */}
         <h3 class="heading">
           <span>OUR CUSTOMERS REVIEWY</span>
         </h3>

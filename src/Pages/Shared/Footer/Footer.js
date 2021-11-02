@@ -14,7 +14,8 @@ const Footer = () => {
                   className="navbar-brand text-light fw-bold fs-1"
                   to="/home"
                 >
-                  <span className="color-pink">T</span>ravle
+                  <span className="color-pink">T</span>ravle Agency...
+
                   <span className="color-pink">...</span>
                 </Link>
                 <h3 className="mt-3">Do You Need Help With Anything?</h3>
@@ -35,7 +36,7 @@ const Footer = () => {
                       className="input-group-text btn btn-travel rounded-start border-start-0"
                       id="basic-addon2"
                     >
-                      Subscribe
+                      Submit
                     </span>
                   </NavLink>
                 </div>
