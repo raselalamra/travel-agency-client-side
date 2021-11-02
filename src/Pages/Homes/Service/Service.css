@@ -1,5 +1,5 @@
 .icon-Goldenrod {
-  color: #ffa500;
+  color: #68cef7;
 }
 .service-cart {
   overflow: hidden;
@@ -9,6 +9,12 @@
   -ms-border-radius: 20px;
   -o-border-radius: 20px;
 }
+
+.service-cart:hover{
+  transform: scale(1.03);
+  margin-top: 20px;
+}
+
 .cart-dl {
   display: flex;
   justify-content: space-around;
