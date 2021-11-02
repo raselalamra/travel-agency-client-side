@@ -7,7 +7,7 @@ const DBTwo = () => {
   const onSubmit = (data) => {
     console.log(data);
     axios
-      .post("https://cryptic-ridge-44622.herokuapp.com/users", data)
+      .post("https://sheltered-bastion-11169.herokuapp.com/users", data)
       .then((res) => {
         if (res.data.insertedId) {
           alert("added Successfully");

@@ -3,12 +3,11 @@ import * as React from "react";
 import { useEffect, useState } from "react";
 import { useForm } from "react-hook-form";
 import { Link } from "react-router-dom";
-import userImg from "./../../../Images/Users/user.png";
 
 const DBOne = () => {
   const [users, setUsers] = useState([]);
   useEffect(() => {
-    fetch("https://cryptic-ridge-44622.herokuapp.com/users")
+    fetch("https://sheltered-bastion-11169.herokuapp.com/users")
       .then((res) => res.json())
       .then((data) => setUsers(data));
   }, []);
@@ -33,7 +32,7 @@ const DBOne = () => {
   const onSubmit = (data) => {
     console.log(data);
     axios
-      .post("https://cryptic-ridge-44622.herokuapp.com/users", data)
+      .post("https://sheltered-bastion-11169.herokuapp.com/users", data)
       .then((res) => {
         if (res.data.insertedId) {
           alert("added Successfully");
@@ -76,11 +75,7 @@ const DBOne = () => {
                                 </span>
                               ) : (
                                 <span>
-                                  <img
-                                    className="userImg ms-3 p-1"
-                                    src={userImg}
-                                    alt=""
-                                  />
+                                
                                 </span>
                               )}
                             </div>

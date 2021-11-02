@@ -2,10 +2,6 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import "./../About.css";
-import AboutSliderImg1 from "./../../../Images/About/aboutSlider1.jpg";
-import AboutSliderImg2 from "./../../../Images/About/aboutSlider2.jpg";
-import AboutSliderImg3 from "./../../../Images/About/aboutSlider3.jpg";
-import AboutSliderImg4 from "./../../../Images/About/aboutSlider4.jpg";
 
 const AboutBodyTwo = () => {
   const responsive = {
@@ -29,53 +25,25 @@ const AboutBodyTwo = () => {
     <div className="my-5">
       <div className="text-center pt-5 my-5">
         <div className="title">
-          <h2 className="sub-heading">Best Places</h2>
         </div>
       </div>
       <div className="container">
         <div className="row">
           <Carousel responsive={responsive}>
             <div className="AboutSlider">
-              <img
-                src={AboutSliderImg1}
-                className="AboutSliderImg shadow"
-                alt=""
-              />
+              
             </div>
             <div className="AboutSlider">
-              <img
-                src={AboutSliderImg2}
-                className="AboutSliderImg shadow"
-                alt=""
-              />
+              
             </div>
             <div className="AboutSlider">
-              <img
-                src={AboutSliderImg3}
-                className="AboutSliderImg shadow"
-                alt=""
-              />
+              
             </div>
             <div className="AboutSlider">
-              <img
-                src={AboutSliderImg4}
-                className="AboutSliderImg shadow"
-                alt=""
-              />
+              
             </div>
             <div className="AboutSlider">
-              <img
-                src={AboutSliderImg1}
-                className="AboutSliderImg shadow"
-                alt=""
-              />
-            </div>
-            <div className="AboutSlider">
-              <img
-                src={AboutSliderImg2}
-                className="AboutSliderImg shadow"
-                alt=""
-              />
+              
             </div>
           </Carousel>
         </div>

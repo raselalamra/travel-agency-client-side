@@ -30,7 +30,7 @@ const ServiceDetails = () => {
     data.userServices = ExactItem[0];
     data.ExactUser = ExactUsers[0];
     axios
-      .post("https://cryptic-ridge-44622.herokuapp.com/usersServices", data)
+      .post("https://sheltered-bastion-11169.herokuapp.com/usersServices", data)
       .then((res) => {
         if (res.data.insertedId) {
           alert("Order Accepted");

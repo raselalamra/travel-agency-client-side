@@ -2,7 +2,6 @@ import React from "react";
 import { Link, NavLink } from "react-router-dom";
 import useAuth from "../../../Hooks/useAuth";
 import "./Header.css";
-import userImg from "./../../../Images/Users/user.png";
 
 const Header = () => {
   const { logOut, user } = useAuth();
@@ -13,7 +12,7 @@ const Header = () => {
         <nav className="navbar navbar-expand-lg navbar-light">
           <div className="container-fluid">
             <a className="navbar-brand fw-bold fs-2" href="/">
-              <span className="color-pink">T</span>ravel{" "}
+              <span className="color-pink">T</span>ravel{" "}Agency
               <span className="color-pink">...</span>
             </a>
             <button
@@ -100,9 +99,6 @@ const Header = () => {
                 </li>
               </ul>
               <div className="d-flex">
-                <button className="btn btn-travel fw-bold me-3">
-                  Book A Tour{" "}
-                </button>
                 {user.email ? (
                   <Link to="/login">
                     <button onClick={logOut} className="btn btn-travel fw-bold">
@@ -121,7 +117,6 @@ const Header = () => {
                     </span>
                   ) : (
                     <span>
-                      <img className="userImg ms-3 p-1" src={userImg} alt="" />
                     </span>
                   )}
                   {displayName ? (
