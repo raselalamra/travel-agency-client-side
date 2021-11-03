@@ -11,12 +11,12 @@ const ServiceDetails = () => {
   const [data, setData] = useState([]);
   const [users, setUsers] = useState([]);
   useEffect(() => {
-    fetch("https://cryptic-ridge-44622.herokuapp.com/services")
+    fetch("https://sheltered-bastion-11169.herokuapp.com/services")
       .then((res) => res.json())
       .then((data) => setData(data));
   }, []);
   useEffect(() => {
-    fetch("https://cryptic-ridge-44622.herokuapp.com/users")
+    fetch("https://sheltered-bastion-11169.herokuapp.com/users")
       .then((res) => res.json())
       .then((data) => setUsers(data));
   }, []);
