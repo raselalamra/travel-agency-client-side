@@ -22,3 +22,4 @@ The project Live Link was https://travel-guru-7e57c.web.app/?fbclid=IwAR25vdml7t
 
 ## `To Know About Developer`
 
+# `They neglect their duties toward the patients. This should not happen`
