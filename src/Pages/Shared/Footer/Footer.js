@@ -24,21 +24,6 @@ const Footer = () => {
                   in your inbox every month
                 </p>
                 <div className="input-group mb-3 w-75 fs-1">
-                  <input
-                    type="text"
-                    className="form-control"
-                    placeholder="Email Address"
-                    aria-label="Recipient's username"
-                    aria-describedby="basic-addon2"
-                  />
-                  <NavLink to="/commingSoon">
-                    <span
-                      className="input-group-text btn btn-travel rounded-start border-start-0"
-                      id="basic-addon2"
-                    >
-                      Submit
-                    </span>
-                  </NavLink>
                 </div>
               </div>
               <div className="col-lg-6">
