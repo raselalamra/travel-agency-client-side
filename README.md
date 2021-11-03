@@ -1,6 +1,6 @@
 # `Getting Started with Health Plus`
 
-The project Live Link was [Travel](https://travel-2022.web.app/).
+The project Live Link was https://travel-guru-7e57c.web.app/?fbclid=IwAR25vdml7t_TAL2-o10YDXniQ1KOo4JSEW0mlsE9XG4-OMGRraD2lzH-xfs 
 
 ### `What Do You Know From This Website ???`
 
@@ -22,6 +22,3 @@ The project Live Link was [Travel](https://travel-2022.web.app/).
 
 ## `To Know About Developer`
 
-This Is [Linkdun](https://www.linkedin.com/in/md-bayazid-5bb117216/)
-
-This Is [GitHub](https://github.com/MdBayazid-star)
